@@ -23,3 +23,7 @@ git push -u origin ErsteArbeit
 - Der Parameter `-u` verknüpft den lokalen Branch mit dem Remote-Branch
 - `origin` ist der Name des Remote-Repositories
 - `ErsteArbeit` ist der Name des Branches, auf den die Änderungen geschrieben werden
+
+## 4. Server starten
+- Rechtsklick auf index.html
+- "Open with Live Server" wählen
