@@ -1,0 +1,7 @@
+<mvc:View controllerName="de.sapui5buch.demo.controller.App"
+        xmlns:mvc="sap.ui.core.mvc" 
+        xmlns="sap.m"> 
+        <Label text="Nun denn,... diesmal mit -XML-"/>
+        
+
+</mvc:View>
