@@ -6,3 +6,4 @@ Folgende Schritte müssen lokal gemacht werden:
 3. git push -u origin ErsteArbeit         --> Änderungen auf den  Giuthub bringen
                                           --> Der Parameter "u" verknüpft den lokalen Branch mit dem Remote-Branch
                                           --> Der Parameter "origin" gibt den Branch an, auf dem im GitHub die Änderungen geschrieben werden
+                                          
