@@ -1,9 +1,25 @@
-Folgende Schritte müssen lokal gemacht werden:
-1. 
-2. git add .                              --> Alle Änderungen stagen
-3. git commit -m "AenderungInDer N18i"    --> Änderungen sind nun dauerhaft lokal im git gespeichert
-                                          --> Der Parameter "M" steht für message und erlaubt es, den commit einen Namen zu geben
-3. git push -u origin ErsteArbeit         --> Änderungen auf den  Giuthub bringen
-                                          --> Der Parameter "u" verknüpft den lokalen Branch mit dem Remote-Branch
-                                          --> Der Parameter "origin" gibt den Branch an, auf dem im GitHub die Änderungen geschrieben werden
-                                          
+# Git Workflow - Lokale Schritte
+
+Folgende Schritte müssen lokal durchgeführt werden:
+
+## 1. Änderungen stagen
+```bash
+git add .
+```
+- Alle Änderungen werden für den Commit vorbereitet (gestaged)
+
+## 2. Änderungen committen
+```bash
+git commit -m "AenderungInDer N18i"
+```
+- Änderungen sind nun dauerhaft lokal im Git gespeichert
+- Der Parameter `-m` steht für "message" und erlaubt es, dem Commit einen Namen zu geben
+
+## 3. Änderungen hochladen
+```bash
+git push -u origin ErsteArbeit
+```
+- Änderungen werden auf GitHub hochgeladen
+- Der Parameter `-u` verknüpft den lokalen Branch mit dem Remote-Branch
+- `origin` ist der Name des Remote-Repositories
+- `ErsteArbeit` ist der Name des Branches, auf den die Änderungen geschrieben werden
