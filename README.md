@@ -8,14 +8,14 @@ git add .
 ```
 - Alle Änderungen werden für den Commit vorbereitet (gestaged)
 
-## 2. Änderungen committen
+## 2. Änderungen lokal committen
 ```bash
 git commit -m "AenderungInDer N18i"
 ```
 - Änderungen sind nun dauerhaft lokal im Git gespeichert
 - Der Parameter `-m` steht für "message" und erlaubt es, dem Commit einen Namen zu geben
 
-## 3. Änderungen hochladen
+## 3. Änderungen in GitHub hochladen
 ```bash
 git push -u origin ErsteArbeit
 ```
