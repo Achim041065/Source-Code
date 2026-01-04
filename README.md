@@ -32,6 +32,8 @@ git branch -D <branch-name> --> für NICHT gemergte Branches
 git checkout - b neuer-branch    --> neuen Branch anlegen und gleich dahin wechseln
 git branch <branch-name>         --> nur erstellen ohne zu wechseln (macht man eigentlich nicht)}
 
+
+
 <hr>
 
 ## 1. Server starten
