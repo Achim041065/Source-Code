@@ -28,9 +28,11 @@ git push -u origin ErsteArbeit
 git branch -d <branch-name> --> für bereits gemergte Branches
 git branch -D <branch-name> --> für NICHT gemergte Branches
 
-## 5. Brnach lokal neu anlegen
+## 5. Branch lokal neu anlegen
 git checkout - b neuer-branch    --> neuen Branch anlegen und gleich dahin wechseln
 git branch <branch-name>         --> nur erstellen ohne zu wechseln (macht man eigentlich nicht)}
+
+<hr>
 
 ## 1. Server starten
 - Rechtsklick auf index.html
