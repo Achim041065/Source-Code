@@ -24,6 +24,14 @@ git push -u origin ErsteArbeit
 - `origin` ist der Name des Remote-Repositories
 - `ErsteArbeit` ist der Name des Branches, auf den die Änderungen geschrieben werden
 
-## 4. Server starten
+## 4. Branch lokal löschen
+git branch -d <branch-name> --> für bereits gemergte Branches
+git branch -D <branch-name> --> für NICHT gemergte Branches
+
+## 5. Brnach lokal neu anlegen
+git checkout - b neuer-branch    --> neuen Branch anlegen und gleich dahin wechseln
+git branch <branch-name>         --> nur erstellen ohne zu wechseln (macht man eigentlich nicht)}
+
+## 1. Server starten
 - Rechtsklick auf index.html
 - "Open with Live Server" wählen
